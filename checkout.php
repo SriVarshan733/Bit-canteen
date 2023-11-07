@@ -241,7 +241,7 @@ function processInput() {
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email'] ?></span></p>
       <a href="update_profile.php" class="btn">update info</a>
       <h3>Roll number</h3>
-      <p><i class="fas fa-user"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
+      <p><i class="fas fa-user"></i><span><?php if($fetch_profile['address'] == ''){echo 'Enter your Roll number';}else{echo $fetch_profile['address'];} ?></span></p>
       <a href="update_address.php" class="btn">update Id</a>
       <h3>Payment</h3>
       <div name="method" class="more-btn">
